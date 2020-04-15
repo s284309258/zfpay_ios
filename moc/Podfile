@@ -1,0 +1,39 @@
+platform :ios, "8.0"
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'XZF' do
+
+pod 'Masonry'
+pod 'TPKeyboardAvoiding'
+pod 'libPhoneNumber-iOS', '~> 0.8'
+pod 'AFNetworking', '~> 3.0'
+pod 'GPUImage'
+pod 'pop'
+pod 'YYKit'
+pod 'UITextView+Placeholder'
+# 全屏手势
+
+pod "Qiniu", "~> 7.2"
+pod 'XLForm', '3.3.0'
+pod 'SPButton', '~> 3.1.0'
+
+pod 'SDCycleScrollView'
+pod 'HWPanModal', '0.2.5.3'
+pod 'PGPickerView'
+
+pod 'THLabel', '~> 1.4.0'
+pod 'ViewDeck'
+#pod 'SJVideoPlayer'
+pod 'TZImagePickerController' 
+
+pod 'ReactiveObjC'
+pod 'WechatOpenSDK','1.8.4'
+pod 'KVOController'
+pod 'SJUIFactory'
+pod 'SJAttributesFactory'
+pod 'RealReachability'
+pod 'ZBarSDK', '= 1.3.1'
+
+end
